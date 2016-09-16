@@ -1,8 +1,6 @@
-using System.Collections.Generic;
-using System.IO;
 using Microsoft.EntityFrameworkCore;
 
-namespace CrudForm.SQLite
+namespace CrudForm
 {
     public class DatabaseContext : DbContext
     {
